@@ -90,12 +90,12 @@ class StateGetter:
 
 
 def get_lib():
-	from platform import system
+    from platform import system
 
     ffi = FFI()
     lib = None
 
-	if 'Windows' in system():
+    if 'Windows' in system():
         lib = ffi.dlopen('gmlib.dll')
     else:
         lib = ffi.dlopen('gmlib.so')

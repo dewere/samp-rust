@@ -1,0 +1,11 @@
+[package]
+name = "rustlib"
+version = "0.1.0"
+authors = ["ilyaruski <ilyaruski@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "gmlib"
+crate-type = ["dylib"]
+
+[dependencies]

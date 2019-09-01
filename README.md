@@ -1,3 +1,5 @@
+Retired from SAMP scene, project is dead.
+
 # SAMP.RUST [WIP]
 
 Trying to make possible write SA:MP gamemodes in Rust language.
